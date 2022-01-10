@@ -12,7 +12,7 @@ In that folder, there are 7 fitting functions, functions <i>"fitA"</i> to <i>"fi
 
 ## Our Dataset
 The dataset used in the experiment is obtained through the Integer N PLL with Single Modulus Prescaler simulation model in the Mixed-Signal Blockset extension provided by MATLAB. 
-**NOTE:** The specific MATLAB version is R2020a.
+<br> **NOTE:** The specific MATLAB version is R2020a.
 
 #### INPUT/OUTPUT Parameters
 The 15 input parameters we focus on are: deadband compensation for PDF, output current and leakage current for charge pump, voltage sensitivity and free running frequency for VCO, clock divider value for prescaler, resistor and capacitor values for loop filter and the frequency of the PLL reference signal. 
