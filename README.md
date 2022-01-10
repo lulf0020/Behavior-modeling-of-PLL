@@ -36,7 +36,7 @@ The <i>"training_dataset.mat"</i> file stores the training set we obtained. The 
 ## Fitting Result
 The average error for six output parameters on our test dataset is as follows:
 |Output parameters| Errors|
-|:--:|:--:|
+|:--|:--:|
 |Operating frequency|2.38%|
 |Lock time|5.93%|
 |Phase noise(Δf=200KHz)|  10.97%|
