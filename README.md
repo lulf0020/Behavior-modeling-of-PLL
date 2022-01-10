@@ -14,12 +14,12 @@ In that folder, there are 7 fitting functions, functions <i>"fitA"</i> to <i>"fi
 The dataset used in the experiment is obtained through the Integer N PLL with Single Modulus Prescaler simulation model in the Mixed-Signal Blockset extension provided by MATLAB. 
 **NOTE:** The specific MATLAB version is R2020a.
 
-##### INPUT/OUTPUT Parameters
+#### INPUT/OUTPUT Parameters
 The 15 input parameters we focus on are: deadband compensation for PDF, output current and leakage current for charge pump, voltage sensitivity and free running frequency for VCO, clock divider value for prescaler, resistor and capacitor values for loop filter and the frequency of the PLL reference signal. 
 
 The 6 output parameters we focus on are: the operating frequency and lock time of the PLL, phase noise of the PLL at 200KHz, 1MHz, 3MHz and 10MHz from the operating frequency offset.
 
-##### Dataset Element Description
+#### Dataset Element Description
 For each row of input parameters, recorded from left to right are the frequency of the PLL reference signal, deadband compensation, output current, leakage current, current imbalance, clock divider value, voltage sensitivity, free running frequency, C1 to C4 and R2 to R4 in the 4th order loop filter model. 
 |![Loop Filter](loopfilter.JPG)|
 |:---:|
@@ -27,7 +27,7 @@ For each row of input parameters, recorded from left to right are the frequency 
 
 For each row of output parameters, recorded from left to right are operating frequency, lock time and the phase noise of the PLL at 200KHz, 1MHz, 3MHz and 10MHz from the operating frequency offset. 
 
-##### Dataset Files Description
+#### Dataset Files Description
 
 We have divided all the data obtained into training and test datasets. The <i>"input_nn.mat"</i> and <i>"output_nn.mat"</i> files store the input parameters and output parameters of our test set respectively. The test set has a total of 105 sets of data and each row is a corresponding set of simulation results. 
 
@@ -44,4 +44,3 @@ The average error for six output parameters on our test dataset is as follows:
 |Phase noise(Δf=2MHz)  |  8.65% |
 |Phase noise(Δf=10MHz) |  6.92% |
 
-[loopfilter]:data:image/jpeg
