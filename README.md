@@ -61,7 +61,7 @@ In order to simplify the data acquisition process, the input parameters we take 
 + Divider range is from 1000 to 2000. 
 + Voltage sensitivity of the VCO ranges from 10&times;10<sup>6</sup> to 30&times;10<sup>6</sup>.  
 + Free running frequency of the VCO is fixed to 20MHz deviation from the theoretical operating frequency. 
-+ For C1 to C4 of loop filter, we set the range as 200e&times;10<sup>-14</sup> to 900&times;10<sup>-14</sup>, 100&times;10<sup>-13</sup> to 1000&times;10<sup>-13</sup>, 50&times;10<sup>-15</sup> to 1100&times;10<sup>-15</sup>, 10 to 1000, respectively. 
++ For C1 to C4 of loop filter, we set the range as 200&times;10<sup>-14</sup> to 900&times;10<sup>-14</sup>, 100&times;10<sup>-13</sup> to 1000&times;10<sup>-13</sup>, 50&times;10<sup>-15</sup> to 1100&times;10<sup>-15</sup>, 10 to 1000, respectively. 
 + For R2 to R4 of the loop filter, we set the range as  50&times;10<sup>2</sup> to 900&times;10<sup>3</sup>, 50&times;10<sup>3</sup> to 1100&times;10<sup>3</sup>, and 5 to 150, respectively. 
 ( The C3, C4, R3, R4 can be set to 0 to simulate different orders of loop filter.)
 
